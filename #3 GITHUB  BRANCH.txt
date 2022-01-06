@@ -1,0 +1,27 @@
+_BRANCH (Cabang)_
+
+1. Definisi Branch
+Membuat cabang dari branch master (cabang utama) tanpa mengubah branch master (jalur utamanya) atau jalur 'development' bebas dari sebuah commit
+
+2. Branch
+Branch master terdiri snapshots (commits).
+
+3. Branching
+ - Membuat Git Branching
+ - Membuat snapshot tanpa mengganggu jalur utama (master branch)
+ - Fitur Experimental
+ - 2 orang mengerjakan repo yang sama
+
+4. Merge
+Menggabungkan 2 buah branch
+
+5. Checkout
+Berpindah ke branch / commit yang lain
+
+6. Pull Request
+meminta pemilik repo untuk 'mengambil' perubahan yang telah dilakukan
+
+7. Merge conflict
+ketika baris yang sama diubah oleh 2 branch yang berbeda
+
+

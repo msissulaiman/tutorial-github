@@ -1,0 +1,101 @@
+GIT & GITHUB
+(2 hal yang berbeda)
+
+1 ) Latar Belakang (Background)
+-GIT-
+merupakan salah satu dari Version Control System (VCS). VCS bisa disebut dengan revision control system atau source code management (SCM) adalah sistem yang dapat mengelola perubahan dari sebuah dokumen, program komputer, website dan kumpulan informasi lain. (wikipedia)
+
+2 ) Rumusan masalah
+-Problems Statement:- 
+1. Kesulitan dalam membuat perubahan versi kita
+for example => +++Skripsiku+++ (Folder)
+(inside this folder) => Skripsiku.docx
+		Skripsiku_revisi-1.docx
+		Skripsiku_Final.docx
+ini adalah cara kita secara manual untuk mengelola versi dari file kita (baik itu dokumen maupun folder)
+2. Kesulitan dalam pembuatan software yang berkolaborasi (bekerja sama tim)
+3. Ingin melakukan sharing atau memamerkan apa yg kita sudah kerjakan.
+
+3 ) products use VCS:
+ -git.
+ -Subversion.
+ -mercurial.
+ -CVS (Concurrent Version System).
+
+4 ). Definition of GIT
+what is GIT?
+=> sebuah VCS terdistribusi untuk mengelola perubahan file di dalam folder (repository/repo)
+
+-Version Control System- (Sandhika Galih)
+1. Sebuah sistem yg menyimpan 'rekaman / snapshot' perubahan pada source code.
+2. Memungkinkan bekerja berkolaborasi dengan lebih baik.
+3. Mengetahui siapa yg melakukan dan kapan sebuah perubahan terjadi.
+4. Memungkinkan kita untuk kembali ke keadaan sebelum perubahan (checkout)
+5. Melacak versi atau history pada perubahan di file
+
+Git
+"Riwayat perubahan file disimpan menggunakan serangkaian *commit*
+
+5. How does it work?
+-Tanpa Git-
+Skripsiku.docx (mulai mengerjakan bab 1)
+Skripsiku-1.docx (menambahkan latar belakang)
+Skripsiku-2.docx (memperbaiki analisis)
+Skripsiku-3.docx (menghapus teori)
+
+-Dengan Git-
+1. *commit* (mulai mengerjakan bab 1)
+2. *commit* (menambahkan latar belakang)
+3. *commit* (memperbaiki analisis)
+4. *commit* (menghapus teori)
+only 1 file => Skripsiku.docx 
+
+		-format *commit*-
+	commit 42e769bdf.....(hash) *sebagai penanda commit*
+	author: Sulaiman Muhammad
+	Date: Fri Jan 22 00:00:00
+
+	message: Menambahkan latar belakang
+
+6. what's the difference between GitHub and Git
+    -GitHub vs Git-
+    GitHub merupakan Layanan cloud untuk menyimpan dan mengelola project / repo Git
+    Git merupakan salah satu software yang bisa melakukan VCS. Git bersifat local server (only pc)
+
+    -when Git and GitHub work together:
+     Git push (can upload our project) to GitHub
+     Git pull (can download project) from GitHub
+
+     apa yang di-push dan pull tersebut adalah commit-nya
+
+    before melakukan push and pull, ada syaratnya
+    1. Membuat GitHub menjadi remote agar bisa diakses via Git (local) dan menjadikan GitHub sebagai sumber repository.
+    2. Lalu clone repo from GitHub.
+
+    Layanan selain GitHub
+    1. Bitbucket
+    2. Gitlab
+
+7. What's the difference between Git, Dropbox dan Google Drive?
+Kegunaannya sama hanya saja tidak se fleksibel saat kita menggunakan khusus Version Control Source Code (Tidak ramah untuk source code)
+
+->Definisi GIT
+adalah sebuah software VCS terdistribusi untuk mengelola perubahan file di dalam folder (repository / repo). 
+
+	#commit
+	Riwayat perubahan file disimpan menggunakan serangkaian "commit"
+	#
+
+
+
+->Istilah GIT
+1. repo : folder project 
+2. commit : rekaman/snapshot dari repo
+3. hash : penanda unik (string unique) pada sebuah commit
+4. checkout : berpindah ke sebuah commit
+5. branch : cabang bebas dari sebuah commit
+6. merge : menggabungkan dua lebih branch
+7. remote : sumber yang memiliki repo
+8. clone : mengambil repo dari remote
+9. push : mengirimkan commit ke repo
+10. pull : mengambil commit dari repo

@@ -1,0 +1,60 @@
+1. Create account GitHub
+Step Actions : 
+- go to github.com
+- click sign up
+- fill the field (email, password..)
+
+2. Create repository
+Step Actions : 
+- go to homepage github
+- click button 'New'
+- The page 'Create new repository' will show
+- fill the field 'Repository name'
+- fill the field 'Description' (optional)
+- click radio button 'public' (default) or click 'private' (optional)
+- click check-box 'add a README file'
+- click button 'Create repository'
+
+3. add a file in github 
+Step Actions :
+- click dropdown button 'add file'
+- choose create new file
+- the page new file will show (you can create html, php, .txt ... etc)
+- if you done the business fill the title and description field on section 'commit new file' (optional)
+- click button 'Commit new file'
+
+4. Update a file
+Step actions:
+- Select the file
+- click button icon like (pencil/pen) [edit]
+- the page editing file will show
+- if you done the business fill the title and description field on section 'commit changes' (optional)
+- click button 'Commit changes'
+
+5. View history commit at the file
+step actions:
+- select file
+- click button 'History'
+- the page history commits will show
+
+6. View history commit a whole repository
+step actions:
+- select repository
+- click button '"n" commits' // n = the amount of commits
+- the page history commits will show
+
+6. Detail commit at the file
+step actions:
+- select file
+- click button 'History'
+- the page history commits will show
+- select a commit
+- the detail page commit will show
+
+7. Detail commit a whole repository
+step actions:
+- select repository
+- click button '"n" commits' // n =  the amount of commits
+- the page history commits will show
+- select a commit
+- the detail page commit will show
